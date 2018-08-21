@@ -1,0 +1,5 @@
+{
+  "name": "waterscript1",
+  "servePort": 8000,
+  "partitions": {}
+}

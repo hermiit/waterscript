@@ -1,2 +1,0 @@
-print("uh")
-print("h") 

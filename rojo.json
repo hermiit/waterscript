@@ -1,5 +1,10 @@
 {
   "name": "waterscript1",
   "servePort": 8000,
-  "partitions": {}
+  "partitions": {
+    "Main": {
+      "path": "Main",
+      "target": "StarterPlayer.StarterCharacterScripts.Main"
+    }
+  }
 }

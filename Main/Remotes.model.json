@@ -1,0 +1,18 @@
+{
+   "Name": "Remotes",
+   "ClassName": "Folder",
+   "Children": [
+      {
+         "Name": "Damageplr",
+         "ClassName": "RemoteEvent"
+      },
+      {
+         "Name": "FXEvent",
+         "ClassName": "RemoteEvent"
+      },
+      {
+         "Name": "ToggleEvent",
+         "ClassName": "RemoteEvent"
+      }
+   ]
+}

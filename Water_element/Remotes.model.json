@@ -13,6 +13,10 @@
       {
          "Name": "ToggleEvent",
          "ClassName": "RemoteEvent"
+      },
+      {
+         "Name": "Skills",
+         "ClassName": "RemoteEvent"
       }
    ]
 }

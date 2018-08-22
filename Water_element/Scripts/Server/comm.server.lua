@@ -1,13 +1,18 @@
-local dongs = {"kong","dong"}
-local s1 = "he has no style, he has no grace"
-local s2 = "this %s has a funny face"
+--// Services
+local uis = game:GetService("UserInputService")
+local debris = game:GetService("Debris")
+local repls = game:GetService("ReplicatedStorage")
+local tweens = game:GetService("TweenService")
+local players = game:GetService("Players")
 
-print(wait())
-print(tick())
-math.randomseed(tick())
+--// Variables
+local root = script.Parent.Parent.Parent
+local rootscripts = root:WaitForChild("Scripts")
+local modules = rootscripts:WaitForChild("Mods")
+local pbin = root:WaitForChild("Partbin")
+local remotes = root:WaitForChild("Remotes")
 
-while wait(8) do
-   print(s1)
-   wait(2)
-   print(s2:format(dongs[math.random(#dongs)]))
-end
+--// Modules
+local basicmod = require(modules:WaitForChild("basic"))
+
+basicmod.initserver("Water Element")

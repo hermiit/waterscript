@@ -21,8 +21,8 @@ local bp = {
 
 --// Variables
 local root = script.Parent.Parent.Parent
-local rootscript = root:WaitForChild("Scripts")
-local modules = root:WaitForChild("Mods")
+local rootscripts = root:WaitForChild("Scripts")
+local modules = rootscripts:WaitForChild("Mods")
 local pbin = root:WaitForChild("Partbin")
 local remotes = root:WaitForChild("Remotes")
 

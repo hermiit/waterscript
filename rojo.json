@@ -3,8 +3,8 @@
   "servePort": 8000,
   "partitions": {
     "Main": {
-      "path": "Main",
-      "target": "StarterPlayer.StarterCharacterScripts"
+      "path": "Water_element",
+      "target": "StarterPlayer.StarterCharacterScripts.Water_element"
     }
   }
 }

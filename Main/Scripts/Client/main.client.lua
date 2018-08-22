@@ -20,3 +20,14 @@ local bp = {
 }
 
 --// Variables
+local root = script.Parent.Parent.Parent
+local rootscript = root:WaitForChild("Scripts")
+local modules = root:WaitForChild("Mods")
+local pbin = root:WaitForChild("Partbin")
+local remotes = root:WaitForChild("Remotes")
+
+--// Modules
+local basicmod = require(modules:WaitForChild("basic"))
+
+--// Main
+print(basicmod.init("Water Element"))

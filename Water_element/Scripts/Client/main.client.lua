@@ -30,4 +30,4 @@ local remotes = root:WaitForChild("Remotes")
 local basicmod = require(modules:WaitForChild("basic"))
 
 --// Main
-print(basicmod.init("Water Element"))
+print(basicmod.initclient("Water Element"))
